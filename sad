@@ -1,0 +1,35 @@
+[33mcommit 05cc30746ef369735e28cdb2f860194960a2ecea[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sun Mar 29 17:48:02 2020 -0300
+
+    Criadas funcionalidades de perfil do usuário
+
+[33mcommit f3f27974bde836092b0d25ceb85590fe254677f4[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sat Mar 28 23:03:46 2020 -0300
+
+    Criação do header e funcionalidades de notificação para o usuário
+
+[33mcommit 357153c0beea09bce8e77408ef48e75cc2cfde79[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sat Mar 28 22:11:58 2020 -0300
+
+    Criação do cadastro e autenticação dos usuários
+
+[33mcommit 2f6a770693855e2e670e70efc99767f8e38e4494[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sat Mar 28 18:53:10 2020 -0300
+
+    Criação de rotas e configuração do Reactotron
+
+[33mcommit e45d26e815f126200d9c6f6e713f483b488140e1[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sat Mar 28 16:24:36 2020 -0300
+
+    Primeiro Commit
+
+[33mcommit c15f1d0b67dec1b72223ab2c0bf5fd5467308df5[m
+Author: Lucas Iori <lucasferiori@gmail.com>
+Date:   Sat Mar 28 15:04:20 2020 -0300
+
+    Initialize project using Create React App
