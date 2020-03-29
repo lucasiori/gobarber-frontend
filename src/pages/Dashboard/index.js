@@ -6,11 +6,12 @@ import {
   setHours,
   setMinutes,
   setSeconds,
+  setMilliseconds,
   isBefore,
   isEqual,
   parseISO,
 } from 'date-fns';
-import { uctToZonedTIme } from 'date-fns-tz';
+import { utcToZonedTime } from 'date-fns-tz';
 import pt from 'date-fns/locale/pt';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import api from '~/services/api';
@@ -30,15 +31,20 @@ export default function Dashboard() {
 
   useEffect(() => {
     async function loadSchedule() {
-      const response = await api.get('schedule', {
+      const response = await api.get('schedules', {
         params: { date },
       });
 
-      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone();
+      const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+      console.tron.log(timezone);
 
       const data = range.map((hour) => {
-        const checkDate = setSeconds(setMinutes(setHours(date, hour), 0), 0);
-        const compareDate = uctToZonedTIme(checkDate, timezone);
+        const checkDate = setMilliseconds(
+          setSeconds(setMinutes(setHours(date, hour), 0), 0),
+          0
+        );
+        const compareDate = utcToZonedTime(checkDate, timezone);
 
         return {
           time: `${hour}:00h`,
@@ -51,7 +57,6 @@ export default function Dashboard() {
 
       setSchedule(data);
     }
-
     loadSchedule();
   }, [date]);
 

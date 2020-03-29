@@ -6,7 +6,7 @@ import { signInSuccess, signFailure } from './actions';
 import history from '~/services/history';
 import api from '~/services/api';
 
-export function* signIn(payload) {
+export function* signIn({ payload }) {
   try {
     const { email, password } = payload;
 

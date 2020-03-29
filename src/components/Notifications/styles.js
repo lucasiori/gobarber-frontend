@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import PerfectScrollBar from 'perfect-scrollbar';
+import PerfectScrollBar from 'react-perfect-scrollbar';
 import { lighten } from 'polished';
 
 export const Container = styled.div`
@@ -36,6 +36,7 @@ export const NotificationList = styled.div`
   border-radius: 4px;
   padding: 15px 5px;
   display: ${(props) => (props.visible ? 'block' : 'none')};
+  z-index: 99;
 
   &::before {
     content: '';
