@@ -18,8 +18,8 @@
 <p>A aplicação trata-se de um sistema de gerenciamento de horários para barbearias, onde o provedor de serviços faz o seu cadastro 
 na plataforma web e pode consultar a sua agenda para qualquer dia. Nessa consulta são mostrados todos os horários que estão disponíveis
 para novos agendamentos ou horários que já estão ocupados.</p>
-<p>No aplicativo mobile, o usuário pode cadastrar um novo agendamento ou cancelar um agendamento existente para o provedor de serviços
-de sua escolha.</p>
+<p>No aplicativo mobile, o usuário realiza o seu cadastro e pode agendar um horário com o provedor de serviços de sua escolha, além de consultar e cancelar seus agendamentos existentes.</p>
+<p>⚙ Backend: <a href="https://github.com/lucasiori/gobarber-backend">GoBarber - Backend</a></p>
 <p>
   <h3>💻 Frontend</h3>
   <p>A aplicação web é destinada aos provedores de serviços, onde eles realizam seu cadastro e fazem o monitoramento de sua agenda
@@ -36,9 +36,9 @@ de sua escolha.</p>
 
 <p>Antes de iniciar a aplicação web você já deve estar com backend da aplicação em execução, que pode ser encontrado através do link: 
 <a href="https://github.com/lucasiori/gobarber-backend">Backend - GoBarber</a>.</p>
-<p>Após iniciar o servidor backend, acesse a pasta do projeto frontend e execute o seguinte comando para instalar as dependências.</p>
+<p>Após iniciar o servidor backend, acesse a pasta do projeto frontend e execute o seguinte comando para instalar as dependências:</p>
 <p><code>npm install</code></p>
-<p>Com todas as depedências instaladas, execute o comando para iniciar a aplicação.</p>
+<p>Com todas as depedências instaladas, execute o comando para iniciar a aplicação:</p>
 <p><code>npm start</code></p>
 <p>A aplicação será executada na porta 3000 do seu localhost.</p>
 
