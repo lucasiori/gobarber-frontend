@@ -26,7 +26,7 @@ de sua escolha.</p>
   diária. A aplicação possui 4 páginas:</p>
   <p><strong>Cadastros:</strong> Página onde novos provedores de serviços podem se cadastrar.</p>
   <p><strong>Login:</strong> Página onde provedores realizam o login para acessar o sistema.</p>
-  <p><strong>Perfil:</strong> Página onde os provedores podem alterar dados do seu perfil, como foto, email ou senha.</p>
+  <p><strong>Perfil:</strong> Página onde os provedores podem alterar dados do seu perfil, como foto, nome, email e senha.</p>
   <p><strong>Dashboard:</strong> Página onde os provedores podem monitorar sua agenda de horários.</p>
 </p>
 
@@ -40,6 +40,7 @@ de sua escolha.</p>
 <p><code>npm install</code></p>
 <p>Com todas as depedências instaladas, execute o comando para iniciar a aplicação.</p>
 <p><code>npm start</code></p>
+<p>A aplicação será executada na porta 3000 do seu localhost.</p>
 
 <br />
 
