@@ -35,9 +35,12 @@ para novos agendamentos ou horários que já estão ocupados.</p>
 
 <h2 id="comecando">▶ Começando</h2>
 
+<h3>✔ Iniciando o backend</h3>
 <p>Antes de iniciar a aplicação web você já deve estar com backend da aplicação em execução, que pode ser encontrado através do link: 
 <a href="https://github.com/lucasiori/gobarber-backend">GoBarber - Backend</a>.</p>
-<p>Após iniciar o servidor backend, acesse a pasta do projeto frontend e execute o seguinte comando para instalar as dependências:</p>
+
+<h3>💻 Iniciando o Frontend</h3>
+<p>Acesse a pasta do projeto frontend e execute o seguinte comando para instalar as dependências:</p>
 <p><code>npm install</code></p>
 <p>Com todas as depedências instaladas, execute o comando para iniciar a aplicação:</p>
 <p><code>npm start</code></p>
