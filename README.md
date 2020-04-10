@@ -1,8 +1,8 @@
 <h1 align="center">
-  <image src="https://github.com/lucasiori/gobarber-frontend/blob/master/.github/gobarber-frontend.png" alt="GoBarber" width="500" />
+  <image src="https://github.com/lucasiori/gobarber-frontend/blob/master/.github/gobarber-frontend.png" alt="GoBarber" height="300" />
 </h1>
 
-<h3 align="center">GoBarber</h3>
+<h3 align="center">✂ GoBarber</h3>
 
 <blockquote align="center">Aplicação base desenvolvida durante o Bootcamp GoStack</blockquote>
 
@@ -20,6 +20,7 @@ na plataforma web e pode consultar a sua agenda para qualquer dia. Nessa consult
 para novos agendamentos ou horários que já estão ocupados.</p>
 <p>No aplicativo mobile, o usuário realiza o seu cadastro e pode agendar um horário com o provedor de serviços de sua escolha, além de consultar e cancelar seus agendamentos existentes.</p>
 <p>⚙ Backend: <a href="https://github.com/lucasiori/gobarber-backend">GoBarber - Backend</a></p>
+<p>📱 Mobile: <a href="https://github.com/lucasiori/gobarber-mobile">GoBarber - Mobile</a></p>
 <p>
   <h3>💻 Frontend</h3>
   <p>A aplicação web é destinada aos provedores de serviços, onde eles realizam seu cadastro e fazem o monitoramento de sua agenda
